@@ -2473,14 +2473,14 @@ body{
   /* background-color: #007ced; */
   /* height: 50%; */
   height: auto;
- display: flex;
- align-items: center;
- justify-content: justify;
+ display: inline-table;
+ /* align-items: center; */
+ /* justify-content:center; */
 }
 
 .about_info{
-  font-size: 2rem;
-  font-weight: 800;
+  font-size: 1rem;
+  font-weight: 500;
   /* margin: 1rem; */
   color: white;
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
@@ -2493,4 +2493,10 @@ body{
 
 .about_info{
   /* background-color: #d67344; */
+  
+}
+.hello {
+  
+  padding: 0.5rem;
+  border-radius: 2rem;
 }
