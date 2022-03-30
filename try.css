@@ -2468,155 +2468,10 @@ body{
   user-select: none;
 }
 
-/******************************** work experience and education ***************************/
-.timeline{
-  position: relative;
-  width:90%;
-  height:90%;
-  border: 2px solid black;
-  margin-bottom: 30px;
-}
-
-.timeline-box{
-  position: relative;
-  width:50vh;
-  height:20vh;
-  left: 5%;
-  border: 1px solid black;
-  margin: 5px;
-  border-radius: 2rem;
-  transition:border 0.5s,box-shadow 0.5s;
-  padding: 10px;
-}
-.timeline-box:hover{
-  box-shadow: 0px 0px 10px 6px rgb(84, 164, 238);
-  border: 1px solid rgb(84, 164, 238);
-}
-
-.timeline-box:nth-child(2n){
-  left: 56%;
-  text-align: left;
-}
-.timeline-box:nth-child(2n+1){
-  left: 5px;
-  text-align: right;
-}
-
-.box-heading{
-  font-size: 1.5rem;
-  color: rgb(14, 89, 170);
-  /*text-align:right;*/
-  font-family: sans-serif;
-  font-weight: 700;
-}
-.box-heading:nth-child(2n){
-  text-align: left;
-}
-.box-heading:nth-child(2n+1){
-  text-align: right;
-}
-
-.box-heading img{
-  width:30px;
-  height:30px;
-}
-.box-heading:nth-child(2n+1)::after{
-  display: inline-block;
-  /* background-image: url(ymca-logo.png); */
-  background-size: contain;
-  content: '';
-  width:30px;
-  height:30px;
-
-}
-.box-heading:nth-child(2n)::before{
-  display: inline-block;
-  /* background-image: url(ymca-logo.png); */
-  background-size: contain;
-  content: '';
-  width:30px;
-  height:30px;
-
-}
-.timeline-box:nth-child(2n+1)::after{
-  position: absolute;
-  content: '';
-  background-color: gray;
-  width: 00.5rem;
-  height: 00.5rem;
-  border-radius: 50%;
-  top:55%;
-  right: -14.8%;
-  z-index: 2;
-}
-.timeline-box:nth-child(2n)::after{
-  position: absolute;
-  content: '';
-  background-color: gray;
-  width: 00.5rem;
-  height: 00.5rem;
-  border-radius: 50%;
-  top:44%;
-  left: -15.5%;
-  z-index: 2;
-}
-.timeline-box p{
-  /*text-align: justify;*/
-  font-size: 1rem;
-  font-family: sans-serif;
-  font-weight: 300;
-}
-.timeline-divider{
-  position: absolute;
-  height: 68%;
-  width: 0;
-  border: 1px dashed lightgray;
-  left: 50%;
-  margin-top: 29%;
-  padding: 0px;
- /* z-index: 1;*/
-}
-.timeline-divider-1{
-  position: absolute;
-  height: 68%;
-  width: 0;
-  border: 1px dashed lightgray;
-  left: 50%;
-  margin-top: 44.8%;
-  padding: 0px;
-  /*z-index: 1;*/
-}
-.timeline-travellar{
-  position: sticky;
-  top: 30%;
-  font-size: 2rem;
-  color: rgb(14, 89, 170);
-  transform: rotate(90deg);
-  margin-right: 10px;
-  z-index: 3;
-}
-.timeline-travellar-1{
-  position: sticky;
-  top: 30%;
-  font-size: 2rem;
-  color: rgb(14, 89, 170);
-  margin-right: 10px;
-  transform: rotate(90deg);
-  z-index: 3;
-}
-
-.time{
-  background-color: #007ced;
-  width: 100vw;
-  height: 100vh;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-}
 
 .about_container{
-  background-color: #007ced;
-  height: 50%;
+  /* background-color: #007ced; */
+  /* height: 50%; */
   height: auto;
  display: flex;
  align-items: center;
@@ -2625,14 +2480,17 @@ body{
 
 .about_info{
   font-size: 2rem;
-  font-weight: 300;
+  font-weight: 800;
   /* margin: 1rem; */
   color: white;
-  font-family: sans-serif;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 
 }
 
-/****************************** about myself **********************************/
+.picture{
+  /* background-color: rgb(50, 185, 120); */
+}
 
-
-/*************************************** about myself ends**************************************/
+.about_info{
+  /* background-color: #d67344; */
+}
