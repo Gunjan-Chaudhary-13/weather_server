@@ -2613,3 +2613,17 @@ body{
   align-items: center;
   justify-content: center;
 }
+
+.about_container{
+  background-color: #007ced;
+  height: 50%;
+  height: auto;
+ display: flex;
+ align-items: center;
+ justify-content: space-around;
+}
+
+/****************************** about myself **********************************/
+
+
+/*************************************** about myself ends**************************************/
