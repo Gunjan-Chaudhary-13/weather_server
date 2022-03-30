@@ -36,7 +36,7 @@ body{
  {
    margin: 0;
    padding: 0;
-   
+   overflow-x : hidden;
    /* make it look decent enough */
    background: #232323;
    color: #cdcdcd;
@@ -2501,4 +2501,30 @@ body{
   
   padding: 0.5rem;
   border-radius: 2rem;
+}
+/* width */
+::-webkit-scrollbar {
+  width: 8px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: transparent;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #888;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #555;
+}
+
+.feedback{
+  position: fixed;
+  width: 5rem;
+  height: 5rem;
+  
 }
