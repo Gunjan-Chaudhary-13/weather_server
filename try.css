@@ -2620,7 +2620,16 @@ body{
   height: auto;
  display: flex;
  align-items: center;
- justify-content: space-around;
+ justify-content: justify;
+}
+
+.about_info{
+  font-size: 2rem;
+  font-weight: 300;
+  /* margin: 1rem; */
+  color: white;
+  font-family: sans-serif;
+
 }
 
 /****************************** about myself **********************************/
