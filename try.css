@@ -382,12 +382,12 @@ body{
 }
 
 .middle{
-  margin-top: 5rem;
+  /* margin-top: 5rem; */
   /* background-color: #007ced; */
   /* background: #33495f; */
   background-color: rgb(2, 2, 8);
   width: 100vw;
-  height: 70vh;
+  height: 50vh;
   margin-bottom: 0%;
 }
 
@@ -1660,7 +1660,8 @@ body{
   width: 150px;
   height: 150px;
   position: absolute;
-  top: calc(50% - 75px);
+  /* top: calc(50% - 75px); */
+  margin-top: 10rem;
   left: calc(50% - 75px);
 }
 
@@ -2474,6 +2475,7 @@ body{
   /* height: 50%; */
   height: auto;
  display: inline-table;
+/* margin-top: 2rem; */
  /* align-items: center; */
  /* justify-content:center; */
 }
