@@ -8,23 +8,12 @@ body{
 }
 
 .background{
-  /* The background image */
- /* background-image: url("images/city_img/bg.jpeg"); */
+  
  background-image: url("images/city_img/bg.jpeg");
-
- /* Set a specified height, or the minimum height for the background image */
- min-height: 500px;
-
- /* Set background image to fixed (don't scroll along with the page) */
+ min-height: 500px; 
  background-attachment: fixed;
-
- /* Center the background image */
  background-position: center;
-
- /* Set the background image to no repeat */
  background-repeat: no-repeat;
-
- /* Scale the background image to be as large as possible */
  background-size: cover;
  position: relative; 
 }
@@ -254,7 +243,7 @@ body{
      box-shadow: 0px 0px 4px 1px rgb(236, 233, 233);
 }
 .top{
-    opacity: 0.8;
+    /* opacity: 0.8; */
     background-color: rgb(2, 2, 8);
     /* background-image: linear-gradient(rgb(6, 40, 104),#0E0F34); */
     height: 95vh;
