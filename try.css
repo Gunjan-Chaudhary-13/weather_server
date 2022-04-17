@@ -1,3 +1,7 @@
+html{
+  overflow-x: hidden;
+}
+
 
 body{
   /* font-family: 'Samarkan', sans-serif; */
@@ -25,7 +29,7 @@ body{
  {
    margin: 0;
    padding: 0;
-   overflow-x : hidden;
+   /* overflow-x : hidden; */
    background: #232323;
    color: #cdcdcd;
    font-family: "Avenir Next", "Avenir", sans-serif;
@@ -2554,7 +2558,7 @@ body{
 }
 
 
-.mobile{
+.mobilee{
 display: none;
 
 }
@@ -2575,11 +2579,12 @@ display: none;
 
 /* MEDIA QUERIES  */
 @media only screen and (max-width: 825px) {
-  .desktop
+  .desktopp
   {
     display: none;
   }
-  .mobile{
+  .mobilee
+  {
     display: block;
   }
 }
