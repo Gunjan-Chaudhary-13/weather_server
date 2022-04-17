@@ -3,16 +3,40 @@
       <meta charset="utf-8" />
       <meta content="width=device-width, initial-scale=1" name="viewport" />
       <script type="text/javascript">
-          window.onload = function () {
-          var images = ['images/city_img/1.jpeg', 'images/city_img/2.jpeg', 'images/city_img/3.jpeg', 'images/city_img/4.jpeg', 'images/city_img/5.jpeg', 'images/city_img/6.jpeg', 'images/city_img/7.jpeg'];
-          var image = images[Math.floor(Math.random() * images.length)];
-          document.getElementsByTagName('body')[0].style.backgroundImage = "url('" + image + "')";
-          document.getElementsByTagName('body')[0].style.backgroundRepeat = "no-repeat";
-          document.getElementsByTagName('body')[0].style.backgroundSize = "cover";
-          document.getElementsByTagName('body')[0].style.backgroundPosition = "center";
-          document.getElementsByTagName('body')[0].style.backgroundAttachment = "fixed";
-}
-      </script>
+        window.onload = function () {
+        var images = ['images/city_img/1.jpeg', 'images/city_img/2.jpeg', 'images/city_img/3.jpeg', 'images/city_img/4.jpeg', 'images/city_img/5.jpeg', 'images/city_img/6.jpeg', 'images/city_img/7.jpeg'];
+        // var pic = '<%- JSON.stringify(s) %>';
+        var pic = '<%= s %>';
+        console.log(pic);
+        if(pic == "Clear")
+        {
+          document.getElementsByTagName('body')[0].style.backgroundImage = "url('" + images[2] + "')";
+        }
+        else if(pic == "Clouds")
+        {
+          document.getElementsByTagName('body')[0].style.backgroundImage = "url('" + images[4] + "')";
+        }
+        else if(pic == "Rain")
+        {
+          document.getElementsByTagName('body')[0].style.backgroundImage = "url('" + images[3] + "')";
+        }
+        else if(pic == "Snow")
+        {
+          document.getElementsByTagName('body')[0].style.backgroundImage = "url('" + images[5] + "')";
+        }
+        else if(pic == "Haze")
+        {
+          document.getElementsByTagName('body')[0].style.backgroundImage = "url('" + images[0] + "')";
+        }
+        
+        // var image = images[Math.floor(Math.random() * images.length)];
+        // document.getElementsByTagName('body')[0].style.backgroundImage = "url('" + image + "')";
+        document.getElementsByTagName('body')[0].style.backgroundRepeat = "no-repeat";
+        document.getElementsByTagName('body')[0].style.backgroundSize = "cover";
+        document.getElementsByTagName('body')[0].style.backgroundPosition = "center";
+        document.getElementsByTagName('body')[0].style.backgroundAttachment = "fixed";
+      }
+    </script>
       <title>Mmausam</title>
       <link rel="icon" type="image/x-icon" href="images/city_img/sun.png">
         <script src="https://kit.fontawesome.com/fee4eed13d.js" crossorigin="anonymous"></script>
